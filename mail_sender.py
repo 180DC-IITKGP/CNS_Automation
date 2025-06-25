@@ -2,8 +2,8 @@ import yagmail
 from openpyxl import load_workbook
 
 
-SENDER_ID = 'rakshitcosmo13@gmail.com'
-APP_PASSWORD = 'whsc ahjv iidk xwup'
+SENDER_ID = ''
+APP_PASSWORD = ''
 EXCEL_FILE = 'emails.xlsx'
 SUBJECT = 'Trial run'
 BODY = 'This is an automated email sent via Python.'
