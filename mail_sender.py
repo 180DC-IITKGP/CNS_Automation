@@ -2,11 +2,11 @@ import yagmail
 from openpyxl import load_workbook
 
 
-SENDER_ID = ''
-APP_PASSWORD = ''
-EXCEL_FILE = 'emails.xlsx'
-SUBJECT = 'Trial run'
-BODY = 'This is an automated email sent via Python.'
+SENDER_ID = ""
+APP_PASSWORD = ""
+EXCEL_FILE = "emails.xlsx"
+SUBJECT = "Trial run"
+BODY = "This is an automated email sent via Python."
 
 
 def get_list(file_path):
@@ -30,7 +30,7 @@ def send_emails(email_list):
             print(f"Failed to send to {email}: {e}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     email_list = get_list(EXCEL_FILE)
     print(f"Found {len(email_list)} email(s). Sending...")
     send_emails(email_list)
