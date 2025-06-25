@@ -7,7 +7,7 @@ This project automates outreach and communication for 180DC CNS using Python, Ge
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/CNS_Automation.git
+git clone https://github.com/180DC-IITKGP/CNS_Automation.git
 cd CNS_Automation
 ```
 
